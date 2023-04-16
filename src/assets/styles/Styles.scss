@@ -1,0 +1,116 @@
+$bg-main-color: #FFE5CA;
+$bg-snd-color:  #FFF3E2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', serif;
+}
+
+.container {
+  background-color: $bg-main-color;
+  background-repeat: round;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .mainpage-container {
+    background-color: $bg-snd-color;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 50px;
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 32px;
+      font-family: "Roboto Slab", serif;
+      letter-spacing: 3px;
+    }
+    
+    h2 {
+      margin-bottom: 20px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    
+    button {
+      cursor: pointer;
+      margin-bottom: 30px;
+      background-color: $bg-snd-color;
+      border: 1px solid #000;
+      border-radius: 40px;
+      text-transform: uppercase;
+      padding: 20px;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+    }
+  }
+
+  .randomBooks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: $bg-snd-color;
+    border-radius: 20px;
+    width: 50%;
+    padding: 40px;
+
+    .book-box {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    .title-descr-box {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      margin-top: 15px;
+      letter-spacing: 3px;
+      text-align: center;
+      font-size: 36px;
+      font-family: 'Gentium Book Plus', serif;
+    }
+
+    h4 {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    img {
+      border-radius: 30px;
+      height: 450px;
+      width: 310px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: $bg-snd-color;
+      border: 1px solid #000;
+      border-radius: 40px;
+      text-transform: uppercase;
+      padding: 20px;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+    }
+  }
+}
