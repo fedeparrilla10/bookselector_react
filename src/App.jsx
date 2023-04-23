@@ -1,6 +1,5 @@
-import "./assets/styles/Styles.css";
 import { useState } from "react";
-import books from "./books";
+import books from "./assets/js/books";
 import MainPage from "./components/MainPage";
 import RandomBook from "./components/RandomBook";
 

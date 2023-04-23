@@ -3,7 +3,9 @@ const RandomBook = ({ book }) => {
     <>
       <div className="book-box">
         <div className="img-info-box">
-          <img src={book.img} alt={`Portada de ${book.name}`} />
+          <a href={book.href} target="_blank">
+            <img src={book.img} alt={`Portada de ${book.name}`} />
+          </a>
           <h4>
             <span>Autor</span>: {book.author}
           </h4>
