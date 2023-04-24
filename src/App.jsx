@@ -2,6 +2,7 @@ import { useState } from "react";
 import books from "./assets/js/books";
 import MainPage from "./components/MainPage";
 import RandomBook from "./components/RandomBook";
+import Checkbox from "./components/Checkbox";
 import "./assets/styles/Styles.css";
 
 const App = () => {
@@ -42,52 +43,10 @@ const App = () => {
       ) : (
         <div className="mainPage-container">
           <MainPage />
-
-          <div className="category-choose-container">
-            <div className="category-checkbox">
-              <label htmlFor="fantasy">Fantasía</label>
-              <input
-                type="checkbox"
-                name="fantasy"
-                id="fantasy"
-                checked={fantasy}
-                onChange={() => setFantasy(!fantasy)}
-              />
-            </div>
-
-            <div className="category-checkbox">
-              <label htmlFor="thriller">Thriller</label>
-              <input
-                type="checkbox"
-                name="thriller"
-                id="thriller"
-                checked={thriller}
-                onChange={() => setThriller(!thriller)}
-              />
-            </div>
-
-            <div className="category-checkbox">
-              <label htmlFor="fiction">Ficción</label>
-              <input
-                type="checkbox"
-                name="fiction"
-                id="fiction"
-                checked={fiction}
-                onChange={() => setFiction(!fiction)}
-              />
-            </div>
-
-            <div className="category-checkbox">
-              <label htmlFor="scifi">Ciencia Ficción</label>
-              <input
-                type="checkbox"
-                name="scifi"
-                id="scifi"
-                checked={scifi}
-                onChange={() => setScifi(!scifi)}
-              />
-            </div>
-          </div>
+          <Checkbox category="Fantasía" check={fantasy} state={setFantasy} />
+          <Checkbox category="Thriller" check={thriller} state={setThriller} />
+          <Checkbox category="Ficción" check={fiction} state={setFiction} />
+          <Checkbox category="SciFi" check={scifi} state={setScifi} />
           <button onClick={getBooks}>¡Recomiéndame un libro!</button>
         </div>
       )}
