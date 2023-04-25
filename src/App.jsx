@@ -43,10 +43,16 @@ const App = () => {
       ) : (
         <div className="mainPage-container">
           <MainPage />
-          <Checkbox category="Fantasía" check={fantasy} state={setFantasy} />
-          <Checkbox category="Thriller" check={thriller} state={setThriller} />
-          <Checkbox category="Ficción" check={fiction} state={setFiction} />
-          <Checkbox category="SciFi" check={scifi} state={setScifi} />
+          <div className="checkbox-container">
+            <Checkbox category="Fantasía" check={fantasy} state={setFantasy} />
+            <Checkbox
+              category="Thriller"
+              check={thriller}
+              state={setThriller}
+            />
+            <Checkbox category="Ficción" check={fiction} state={setFiction} />
+            <Checkbox category="SciFi" check={scifi} state={setScifi} />
+          </div>
           <button onClick={getBooks}>¡Recomiéndame un libro!</button>
         </div>
       )}
