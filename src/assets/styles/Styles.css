@@ -70,6 +70,21 @@
     padding: 25px;
     border-radius: 12px;
     border: 3px solid #7AD390;
+    gap: 25px;
+  }
+  .container .mainPage-container .checkbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .container .mainPage-container .checkbox-container .category-checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .container .mainPage-container .checkbox-container .category-checkbox input:checkbox {
+    width: 40px;
   }
   .container .randomBooks-container {
     display: flex;

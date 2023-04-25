@@ -77,6 +77,38 @@ const books = [
     La joven inspectora Naia Thulin es la encargada del caso. Su compañero, Mark Hess, es un inspector descontento que recientemente ha sido expulsado de la sede central de Europol, en la Haya. En la figura de castañas descubren una misteriosa huella que les llevará a una niña, la hija de la ministra de Asuntos Sociales Rosa Hartung, desaparecida un año antes y que presuntamente está muerta. Un hombre confesó el crimen en su momento y el caso consta como resuelto y cerrado desde hace varios meses.`,
     href: "https://www.goodreads.com/book/show/36664177-el-caso-hartung",
   },
+
+  {
+    name: "El Marciano",
+    img: "/img/elmarciano.jpg",
+    author: "Andy Weir",
+    genre: "Ciencia Ficción",
+    pages: "408",
+    details: `Seis días atrás el astronauta Mark Watney se convirtió en uno de los primeros hombres en caminar por la superficie de Marte. Ahora está seguro de que será el primer hombre en morir allí. La tripulación de la nave en que viajaba se ve obligada a evacuar el planeta a causa de una tormenta de polvo, dejando atrás a Mark tras darlo por muerto. Pero él está vivo, y atrapado a millones de kilómetros de cualquier ser humano, sin posibilidad de enviar señales a la Tierra. De todos modos, si lograra establecer conexión, moriría mucho antes de que el rescate llegara.
+
+    Sin embargo, Mark no se da por vencido; armado con su ingenio, sus habilidades y sus conocimientos sobre botánica, se enfrentará a obstáculos aparentemente insuperables. Por suerte, el sentido del humor resultará ser su mayor fuente de fuerza. Obstinado en seguir con vida, incubará un plan absolutamente demencial para ponerse en contacto con la NASA.`,
+    href: "https://www.goodreads.com/book/show/22820681-el-marciano",
+  },
+
+  {
+    name: "Proyecto Hail Mary",
+    img: "/img/hailmary.jpg",
+    author: "Andy Weir",
+    genre: "Ciencia Ficción",
+    pages: "476",
+    details: `Ryland Grace es el único superviviente en una misión desesperada y de última oportunidad, y si falla, la humanidad y la Tierra misma perecerán.
+    
+    Sin embargo, en este momento, él no lo sabe. Ni siquiera puede recordar su propio nombre, ni mucho menos la naturaleza de su misión o cómo completarla.
+    
+    Todo lo que sabe es que ha estado dormido durante mucho, mucho tiempo. Y acaba de despertar para encontrarse a millones de millas de su hogar, con solo dos cadáveres como compañía.
+    
+    Con sus compañeros de tripulación muertos y sus recuerdos volviendo difusos, Ryland se da cuenta de que ahora enfrenta una tarea imposible. Atravesando el espacio en esta pequeña nave, depende de él resolver un misterio científico imposible y enfrentarse a una amenaza de nivel de extinción para nuestra especie.
+    
+    Y con el reloj corriendo y el ser humano más cercano a años luz de distancia, tiene que hacerlo todo él solo.
+    
+    ¿O tal vez no?`,
+    href: "https://www.goodreads.com/book/show/54493401-project-hail-mary",
+  },
 ];
 
 export default books;

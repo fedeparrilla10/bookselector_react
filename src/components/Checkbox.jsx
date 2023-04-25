@@ -1,6 +1,6 @@
 const Checkbox = ({ category, state, check }) => {
   return (
-    <>
+    <div className="category-checkbox">
       <label htmlFor={category}>{category}</label>
       <input
         type="checkbox"
@@ -11,7 +11,7 @@ const Checkbox = ({ category, state, check }) => {
           state(!check);
         }}
       />
-    </>
+    </div>
   );
 };
 
