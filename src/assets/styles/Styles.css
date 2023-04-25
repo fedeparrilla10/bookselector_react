@@ -10,25 +10,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.container .mainPage-container {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: center;
-  width: 80%;
-}
-.container .mainPage-container img {
-  -o-object-fit: none;
-     object-fit: none;
-  width: 50px;
-  height: 50px;
-}
-.container .mainPage-container .second-description {
-  display: none;
-}
-.container .mainPage-container .category-choose-container {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
 }/*# sourceMappingURL=Styles.css.map */
